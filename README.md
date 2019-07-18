@@ -3,7 +3,7 @@
 なので今回作ったコードにも、カメラに指を押し付けてもらうことで血液の赤色の輝度を取得し平均化、その値を毎フレームごとにグラフにプロットする（これで脈拍を測れる予定）内容となっている。
 # 実行結果
 
-
+![](https://raw.github.com/wiki/macky1737/github/images/a.gif)  
 
 ![](https://raw.github.com/wiki/macky1737/github/images/b.gif)
 
