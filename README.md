@@ -10,7 +10,8 @@
     ret, frame = capture.read()  
  capture.release()
 cv2.destroyAllWindows()の部分である  
-https://weblabo.oscasierra.net/python/opencv-videocapture-camera.html　このサイトからはopencvでカメラから動画を取得する方法を参考にさせてもらった。コードとしては  
+https://weblabo.oscasierra.net/python/opencv-videocapture-camera.html　
+このサイトからはopencvでカメラから動画を取得する方法を参考にさせてもらった。コードとしては  
 queue = deque([0]*10)  
 plt.ion()  
 fig = plt.figure()  
