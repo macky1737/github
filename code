@@ -1,1 +1,40 @@
-
+# コード
+```
+pip install opencv-python
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+from collections import deque
+from IPython.display import display, clear_output
+capture = cv2.VideoCapture(0)
+queue = deque([0]*10)
+i=-1
+# Plot
+plt.ion()
+fig = plt.figure()
+while(True):
+    ret, frame = capture.read()
+    frame1 = frame[:,:,0]
+    h,w= frame1.shape
+    mean = 0
+    for y in range(h):
+        for x in range(w):
+            mean += frame1[y, x]
+    mean /= h * w
+    queue.popleft()
+    queue.append(mean)
+    i += 1
+    # Plot
+    clear_output(wait = True)
+    plt.cla()
+    plt.plot(range(i-9,i+1),queue)
+    plt.grid()
+    plt.ylim(20,25)
+    display(fig) 
+    print(mean)
+    cv2.imshow('frame',frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+capture.release()
+cv2.destroyAllWindows()
+```
