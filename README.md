@@ -5,7 +5,7 @@
 
 ![](https://raw.github.com/wiki/macky1737/github/images/a.gif)  
 
-![](https://raw.github.com/wiki/macky1737/github/images/f.gif)  
+![](https://raw.github.com/wiki/macky1737/github/images/g.gif)  
 gifアニメーションにしていたが、スマホで撮ったため（指でカメラを押さえている絵が欲しかった）やむなくMOVファイルになった。
 # コード
 ```
