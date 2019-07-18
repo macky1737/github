@@ -2,8 +2,9 @@
 初めて使うGithubで何を作ろうかと思ったところ、ネット記事に“iPhoneで正確に脈を測って記録できる「Instant Heart Rate」"という内容のものが上がっていたので、似たような物をjupyterLabで作ってみた。「Instant Heart Rate」は、iPhoneのカメラ機能を使って心拍数を測るユニークなアプリだ。カメラに指を当て、LEDの光で脈を読み取ることにより、目分量に比べて正確な脈を測定できるらしい。  
 なので今回作ったコードにも、カメラに指を押し付けてもらうことで血液の赤色の輝度を取得し平均化、その値を毎フレームごとにグラフにプロットする（これで脈拍を測れる予定）内容となっている。
 # 実行結果
+
+![](https://raw.github.com/wiki/macky1737/github/images/a.gif)  
 ![](https://raw.github.com/wiki/macky1737/github/images/b.gif)
-![](https://raw.github.com/wiki/macky1737/github/images/a.gif)
 
 # コード
 ```
