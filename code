@@ -1,5 +1,3 @@
-# コード
-```
 pip install opencv-python
 import cv2
 import matplotlib.pyplot as plt
@@ -37,4 +35,4 @@ while(True):
         break
 capture.release()
 cv2.destroyAllWindows()
-```
+
