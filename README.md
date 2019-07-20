@@ -10,7 +10,7 @@ https://raw.github.com/wiki/macky1737/github/images/g.MOV  (トリミングし�
 
 # 使い方
 使い方は、実行すると内カメラが起動するので人差し指をカメラに押し付けてもらうと、グラフが血液の輝度をプロットして値が下に表示される。  
-使ったのはopencv.,numpy,matplolib  
+使ったのはopencv 4.1.0.,matplolib 3.0.3  
 # 参考資料
 参考にしたサイトはhttps://qiita.com/iton/items/89dfdf3e1672219d91e4
  でこのサイトからはqueueの使い方とグラフの更新の仕方を参考にさせてもらった。コードとしては  
